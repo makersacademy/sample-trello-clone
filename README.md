@@ -24,17 +24,24 @@ If you see some variation of `command not found: npm`, try running `brew install
 
 ### Setup
 
-To run this application on your machine:
+To run this application from within a terminal on your machine:
 
 1. Clone the repository.
 ```
 git clone https://github.com/makersacademy/sample-trello-clone.git
 ```
-2. Install the dependencies.
+
+2. Change directory into the folder which you just cloned.
+```
+cd sample-trello-clone
+```  
+
+4. Install the dependencies.
 ```
 npm install
 ```
-3. Run the server. 
+
+4. Run the server. 
 ```
 npm run serve
 ```
